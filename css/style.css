@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(2, 2, 2);
+
+}
+
+.cabecalho {
+    max-width: 960px;
+    margin-inline: auto;
+    padding: 80px 20px;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.title span {
+    display: block;
+    color: #fff;
+}
+
+.title .primary {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.title .secondary {
+    font-size: 25px;
+}
+
+.descricao:hover {
+    padding: 0px;
+    border-radius: 3px;
+    color:rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.descricao:not(:hover) {
+    opacity: 0.25;
+    color: #fff;
+    transition: opacity 0.25s, transform 0.1s;
+    transition-delay: 0.3s;
+}
+
+
+.conteudo {
+    max-width: 960px;
+    margin-inline: auto;
+    padding: 0px 20px;
+}
+
+.objetivos:hover {
+    padding: 0px;
+    border-radius: 3px;
+    color:rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.objetivos:not(:hover) {
+    opacity: 0.25;
+    color: #fff;
+    transition: opacity 0.25s, transform 0.1s;
+    transition-delay: 0.3s;
+}
+
+.exp:hover {
+    padding: 0px;
+    border-radius: 3px;
+    color:rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.exp:not(:hover) {
+    opacity: 0.25;
+    color: #fff;
+    transition: opacity 0.25s, transform 0.1s;
+    transition-delay: 0.3s;
+}
+
+.conclusao {
+    max-width: 960px;
+    margin-inline: auto;
+    padding: 80px 20px;
+}
+
+.conclusao_texto:hover {
+    padding: 0px;
+    border-radius: 3px;
+    color:rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.conclusao_texto:not(:hover) {
+    opacity: 0.25;
+    color: #fff;
+    transition: opacity 0.25s, transform 0.1s;
+    transition-delay: 0.3s;
+}
+
+.footer {
+    padding: 200px 0px;
+    font-size: 10px;
+    color:#fff;
+    text-align:center;
+}
+
+.control {
+    opacity: 0.3;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    padding-top: 20px;
+}
